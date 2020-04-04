@@ -7,5 +7,8 @@ add_definitions(-Werror -Wall -Wextra -pedantic -O2)
 add_subdirectory(Geil-Shapley)
 include_directories(Geil-Shapley)
 
-add_executable(algorithms main.cpp)
-target_link_libraries(algorithms Geil-Shapley)
+add_library(algorithms SHARED algorithm.cpp)
+target_link_libraries(algorithms GeilShapley)
+
+add_executable(main main.cpp)
+target_link_libraries(main algorithms)

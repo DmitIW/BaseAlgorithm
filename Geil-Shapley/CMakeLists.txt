@@ -1,1 +1,1 @@
-add_library(GeilShapley geil_shapley.cpp geil_shapley.h ../main.cpp)
+add_library(GeilShapley geil_shapley.cpp geil_shapley.h)
