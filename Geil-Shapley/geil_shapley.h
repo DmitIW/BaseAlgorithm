@@ -1,0 +1,8 @@
+//
+// Created by Dmitri on 04.04.2020.
+//
+
+#ifndef ALGORITHMS_GEIL_SHAPLEY_H
+#define ALGORITHMS_GEIL_SHAPLEY_H
+
+#endif //ALGORITHMS_GEIL_SHAPLEY_H
